@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012E93A9BCE23CC997193FFE /* Pods_PhoneTAXX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18C37420A7F3014BBE4FC22 /* Pods_PhoneTAXX.framework */; };
+		29244EA8265CDA6100228520 /* MakeCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29244EA7265CDA6100228520 /* MakeCallVC.swift */; };
+		2924DED72669EB7E00310331 /* configToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924DED52669EB7E00310331 /* configToast.swift */; };
+		2924DED82669EB7E00310331 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924DED62669EB7E00310331 /* Toast.swift */; };
+		292CBCEB2668BF2D00B1DACD /* ViewAllCallLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292CBCEA2668BF2D00B1DACD /* ViewAllCallLogVC.swift */; };
+		292DFCDB2668F59F0026BBD9 /* ShowCalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DFCDA2668F59F0026BBD9 /* ShowCalenderVC.swift */; };
+		292DFD1D26691ED40026BBD9 /* UIPICKERVIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DFD1C26691ED40026BBD9 /* UIPICKERVIEW.swift */; };
+		292F2372265F313800D00E5A /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292F2371265F313800D00E5A /* ContactsVC.swift */; };
+		29303DE526601B2E00F353A7 /* Extention Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29303DE426601B2E00F353A7 /* Extention Date.swift */; };
+		2931687A2674C0AF006B4878 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293168792674C0AF006B4878 /* EditProfileViewController.swift */; };
+		29353331267522A6002CF7E4 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29353330267522A5002CF7E4 /* CameraHandler.swift */; };
+		2935BACC265F5D060099F6CB /* FetchedContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935BACB265F5D060099F6CB /* FetchedContact.swift */; };
+		2935BB15265FA6D20099F6CB /* CallHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935BB14265FA6D20099F6CB /* CallHistoryVC.swift */; };
+		2935BB1A265FAE040099F6CB /* CallDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935BB19265FAE040099F6CB /* CallDetailModel.swift */; };
+		29388B75266612B800A3736A /* Extention UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388B74266612B800A3736A /* Extention UIView.swift */; };
+		29388C242666488500A3736A /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388C232666488500A3736A /* SupportViewController.swift */; };
+		295214CC265B9886003C36F7 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295214CB265B9886003C36F7 /* GrowingTextView.swift */; };
+		29543296268302F60070F68C /* EditFrequentContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29543295268302F60070F68C /* EditFrequentContactViewController.swift */; };
+		299FDC972659080600D79D0E /* Extension UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299FDC962659080600D79D0E /* Extension UIColor.swift */; };
+		29CE97AC2679D571005D05D7 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE97AB2679D571005D05D7 /* Animator.swift */; };
+		29D73E2D2655238E00F20565 /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29D73E2A2655238E00F20565 /* assets.bundle */; };
+		29D73E2E2655238E00F20565 /* MICountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D73E2B2655238E00F20565 /* MICountryPicker.swift */; };
+		29D73E2F2655238E00F20565 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29D73E2C2655238E00F20565 /* CallingCodes.plist */; };
+		2A57FA951D32E67EB187AEAF /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		3E462504FC52A8BF9C0231C4 /* Pods_PhoneTAXXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289915DB42EC76E07A2A4792 /* Pods_PhoneTAXXTests.framework */; };
+		5DF93E91B7652F74AB3E07C4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		842F987A26440B8B0029C1BF /* String + Extension File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F987926440B8B0029C1BF /* String + Extension File.swift */; };
+		843305F4261C15B600D84F6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843305F3261C15B600D84F6D /* AppDelegate.swift */; };
+		843305F6261C15B600D84F6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843305F5261C15B600D84F6D /* SceneDelegate.swift */; };
+		843305F8261C15B600D84F6D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843305F7261C15B600D84F6D /* ForgotPasswordViewController.swift */; };
+		843305FB261C15B600D84F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843305F9261C15B600D84F6D /* Main.storyboard */; };
+		843305FE261C15B600D84F6D /* PhoneTAXX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843305FC261C15B600D84F6D /* PhoneTAXX.xcdatamodeld */; };
+		84330600261C15B800D84F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843305FF261C15B800D84F6D /* Assets.xcassets */; };
+		84330603261C15B800D84F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84330601261C15B800D84F6D /* LaunchScreen.storyboard */; };
+		8433060E261C15B800D84F6D /* PhoneTAXXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433060D261C15B800D84F6D /* PhoneTAXXTests.swift */; };
+		84330619261C15B800D84F6D /* PhoneTAXXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84330618261C15B800D84F6D /* PhoneTAXXUITests.swift */; };
+		84330642261C462600D84F6D /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330632261C462600D84F6D /* Rubik-MediumItalic.ttf */; };
+		84330643261C462600D84F6D /* Rubik-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330633261C462600D84F6D /* Rubik-VariableFont_wght.ttf */; };
+		84330644261C462600D84F6D /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330634261C462600D84F6D /* Rubik-Bold.ttf */; };
+		84330645261C462600D84F6D /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330635261C462600D84F6D /* Rubik-SemiBoldItalic.ttf */; };
+		84330646261C462600D84F6D /* Rubik-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330636261C462600D84F6D /* Rubik-Italic-VariableFont_wght.ttf */; };
+		84330647261C462600D84F6D /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330637261C462600D84F6D /* Rubik-Light.ttf */; };
+		84330648261C462600D84F6D /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330638261C462600D84F6D /* Rubik-Medium.ttf */; };
+		84330649261C462600D84F6D /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330639261C462600D84F6D /* Rubik-ExtraBoldItalic.ttf */; };
+		8433064A261C462600D84F6D /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433063A261C462600D84F6D /* Rubik-Black.ttf */; };
+		8433064B261C462600D84F6D /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433063B261C462600D84F6D /* Rubik-Italic.ttf */; };
+		8433064C261C462600D84F6D /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433063C261C462600D84F6D /* Rubik-LightItalic.ttf */; };
+		8433064D261C462600D84F6D /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433063D261C462600D84F6D /* Rubik-SemiBold.ttf */; };
+		8433064E261C462600D84F6D /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433063E261C462600D84F6D /* Rubik-BlackItalic.ttf */; };
+		8433064F261C462600D84F6D /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433063F261C462600D84F6D /* Rubik-ExtraBold.ttf */; };
+		84330650261C462600D84F6D /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330640261C462600D84F6D /* Rubik-Regular.ttf */; };
+		84330651261C462600D84F6D /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84330641261C462600D84F6D /* Rubik-BoldItalic.ttf */; };
+		84330659261C495400D84F6D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84330658261C495400D84F6D /* CreateAccountViewController.swift */; };
+		84330665261C999C00D84F6D /* SignINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84330664261C999C00D84F6D /* SignINViewController.swift */; };
+		84361E1826205EF7008D6C78 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84361E1726205EF7008D6C78 /* HomeViewController.swift */; };
+		84375C7426241A27003DA5B7 /* AccountSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C7326241A27003DA5B7 /* AccountSettingViewController.swift */; };
+		84375C7926241CB9003DA5B7 /* CallDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C7826241CB9003DA5B7 /* CallDetailViewController.swift */; };
+		84375C7E26241D09003DA5B7 /* AddNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C7D26241D09003DA5B7 /* AddNumberViewController.swift */; };
+		84375C8326241D6C003DA5B7 /* SendReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C8226241D6C003DA5B7 /* SendReportViewController.swift */; };
+		84375C8826241F0B003DA5B7 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C8726241F0B003DA5B7 /* NotificationViewController.swift */; };
+		84375C8D2624278A003DA5B7 /* ThreeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C8C2624278A003DA5B7 /* ThreeMenuViewController.swift */; };
+		84375C9226243426003DA5B7 /* FrequentNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C9126243426003DA5B7 /* FrequentNumberViewController.swift */; };
+		84375C9726243475003DA5B7 /* MonthlySummariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C9626243475003DA5B7 /* MonthlySummariesViewController.swift */; };
+		84375C9C262434FD003DA5B7 /* MonthlyPhoneBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375C9B262434FD003DA5B7 /* MonthlyPhoneBillViewController.swift */; };
+		84375CA126243543003DA5B7 /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84375CA026243543003DA5B7 /* SubscriptionViewController.swift */; };
+		8442C9C926443D9A0061E66B /* UIAlertController + ExtentionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442C9C826443D9A0061E66B /* UIAlertController + ExtentionFile.swift */; };
+		844A99492625965800688D08 /* NSUIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A99482625965800688D08 /* NSUIColor+Hex.swift */; };
+		84525859261D84BD0074233F /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84525858261D84BD0074233F /* VerificationCodeViewController.swift */; };
+		8452585E261D93C60074233F /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452585D261D93C60074233F /* ChangePasswordViewController.swift */; };
+		84525867261DDBA50074233F /* extension UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84525866261DDBA50074233F /* extension UITextField.swift */; };
+		845DBCBD2621DACD00FB5D5D /* TimeSelectionPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DBCBC2621DACD00FB5D5D /* TimeSelectionPopUpViewController.swift */; };
+		C4BBB6C92685FF34009E4B68 /* StoreKitDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BBB6C82685FF34009E4B68 /* StoreKitDelegate.swift */; };
+		C4C08F1A270DF7D300B7C15C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4C08F19270DF7D200B7C15C /* GoogleService-Info.plist */; };
+		C4FD43B32671EA0F00475177 /* FCMNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD43B22671EA0F00475177 /* FCMNotifications.swift */; };
+		EE185D7F3396BAD8CB24B2FA /* Pods_PhoneTAXX_PhoneTAXXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D3A3BE397A1930993B2036 /* Pods_PhoneTAXX_PhoneTAXXUITests.framework */; };
+		FF32D5BABB026AAB43058AC8 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8433060A261C15B800D84F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843305E8261C15B600D84F6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843305EF261C15B600D84F6D;
+			remoteInfo = PhoneTAXX;
+		};
+		84330615261C15B800D84F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843305E8261C15B600D84F6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843305EF261C15B600D84F6D;
+			remoteInfo = PhoneTAXX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		289915DB42EC76E07A2A4792 /* Pods_PhoneTAXXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneTAXXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29244EA7265CDA6100228520 /* MakeCallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallVC.swift; sourceTree = "<group>"; };
+		2924DED52669EB7E00310331 /* configToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configToast.swift; sourceTree = "<group>"; };
+		2924DED62669EB7E00310331 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		292CBCEA2668BF2D00B1DACD /* ViewAllCallLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAllCallLogVC.swift; sourceTree = "<group>"; };
+		292DFCDA2668F59F0026BBD9 /* ShowCalenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCalenderVC.swift; sourceTree = "<group>"; };
+		292DFD1C26691ED40026BBD9 /* UIPICKERVIEW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPICKERVIEW.swift; sourceTree = "<group>"; };
+		292F2371265F313800D00E5A /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		29303DE426601B2E00F353A7 /* Extention Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention Date.swift"; sourceTree = "<group>"; };
+		293168792674C0AF006B4878 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		29353330267522A5002CF7E4 /* CameraHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		2935BACB265F5D060099F6CB /* FetchedContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedContact.swift; sourceTree = "<group>"; };
+		2935BB14265FA6D20099F6CB /* CallHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallHistoryVC.swift; sourceTree = "<group>"; };
+		2935BB19265FAE040099F6CB /* CallDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDetailModel.swift; sourceTree = "<group>"; };
+		29388B74266612B800A3736A /* Extention UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention UIView.swift"; sourceTree = "<group>"; };
+		29388C232666488500A3736A /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		29492244265965CD00E24B76 /* PhoneTAXX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhoneTAXX.entitlements; sourceTree = "<group>"; };
+		295214CB265B9886003C36F7 /* GrowingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingTextView.swift; sourceTree = "<group>"; };
+		29543295268302F60070F68C /* EditFrequentContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFrequentContactViewController.swift; sourceTree = "<group>"; };
+		299FDC962659080600D79D0E /* Extension UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension UIColor.swift"; sourceTree = "<group>"; };
+		29CE97AB2679D571005D05D7 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		29D73E2A2655238E00F20565 /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
+		29D73E2B2655238E00F20565 /* MICountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MICountryPicker.swift; sourceTree = "<group>"; };
+		29D73E2C2655238E00F20565 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
+		36D3A3BE397A1930993B2036 /* Pods_PhoneTAXX_PhoneTAXXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneTAXX_PhoneTAXXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B56F5F5102E020095A9964C /* Pods-PhoneTAXX-PhoneTAXXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneTAXX-PhoneTAXXUITests.release.xcconfig"; path = "Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4971598C4A3CEC1D487042B0 /* Pods-PhoneTAXX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneTAXX.release.xcconfig"; path = "Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX.release.xcconfig"; sourceTree = "<group>"; };
+		80B3EC5F8322C29DBC40BC17 /* Pods-PhoneTAXXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneTAXXTests.debug.xcconfig"; path = "Target Support Files/Pods-PhoneTAXXTests/Pods-PhoneTAXXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8418347459AE60D257F5A26E /* Pods-PhoneTAXX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneTAXX.debug.xcconfig"; path = "Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX.debug.xcconfig"; sourceTree = "<group>"; };
+		842F987926440B8B0029C1BF /* String + Extension File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension File.swift"; sourceTree = "<group>"; };
+		843305F0261C15B600D84F6D /* PhoneTAXX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneTAXX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843305F3261C15B600D84F6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843305F5261C15B600D84F6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		843305F7261C15B600D84F6D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		843305FA261C15B600D84F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843305FD261C15B600D84F6D /* PhoneTAXX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhoneTAXX.xcdatamodel; sourceTree = "<group>"; };
+		843305FF261C15B800D84F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84330602261C15B800D84F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84330604261C15B800D84F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84330609261C15B800D84F6D /* PhoneTAXXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneTAXXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8433060D261C15B800D84F6D /* PhoneTAXXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTAXXTests.swift; sourceTree = "<group>"; };
+		8433060F261C15B800D84F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84330614261C15B800D84F6D /* PhoneTAXXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneTAXXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84330618261C15B800D84F6D /* PhoneTAXXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTAXXUITests.swift; sourceTree = "<group>"; };
+		8433061A261C15B800D84F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84330632261C462600D84F6D /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		84330633261C462600D84F6D /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		84330634261C462600D84F6D /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		84330635261C462600D84F6D /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		84330636261C462600D84F6D /* Rubik-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		84330637261C462600D84F6D /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		84330638261C462600D84F6D /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		84330639261C462600D84F6D /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8433063A261C462600D84F6D /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		8433063B261C462600D84F6D /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		8433063C261C462600D84F6D /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		8433063D261C462600D84F6D /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		8433063E261C462600D84F6D /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8433063F261C462600D84F6D /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		84330640261C462600D84F6D /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		84330641261C462600D84F6D /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		84330658261C495400D84F6D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		84330664261C999C00D84F6D /* SignINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignINViewController.swift; sourceTree = "<group>"; };
+		84361E1726205EF7008D6C78 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84375C7326241A27003DA5B7 /* AccountSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingViewController.swift; sourceTree = "<group>"; };
+		84375C7826241CB9003DA5B7 /* CallDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDetailViewController.swift; sourceTree = "<group>"; };
+		84375C7D26241D09003DA5B7 /* AddNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNumberViewController.swift; sourceTree = "<group>"; };
+		84375C8226241D6C003DA5B7 /* SendReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendReportViewController.swift; sourceTree = "<group>"; };
+		84375C8726241F0B003DA5B7 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		84375C8C2624278A003DA5B7 /* ThreeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeMenuViewController.swift; sourceTree = "<group>"; };
+		84375C9126243426003DA5B7 /* FrequentNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequentNumberViewController.swift; sourceTree = "<group>"; };
+		84375C9626243475003DA5B7 /* MonthlySummariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlySummariesViewController.swift; sourceTree = "<group>"; };
+		84375C9B262434FD003DA5B7 /* MonthlyPhoneBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPhoneBillViewController.swift; sourceTree = "<group>"; };
+		84375CA026243543003DA5B7 /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		8442C9C826443D9A0061E66B /* UIAlertController + ExtentionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController + ExtentionFile.swift"; sourceTree = "<group>"; };
+		844A99482625965800688D08 /* NSUIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSUIColor+Hex.swift"; sourceTree = "<group>"; };
+		84525858261D84BD0074233F /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
+		8452585D261D93C60074233F /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		84525866261DDBA50074233F /* extension UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension UITextField.swift"; sourceTree = "<group>"; };
+		845DBCBC2621DACD00FB5D5D /* TimeSelectionPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectionPopUpViewController.swift; sourceTree = "<group>"; };
+		8C134DD046C38162D25B97EF /* Pods-PhoneTAXXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneTAXXTests.release.xcconfig"; path = "Target Support Files/Pods-PhoneTAXXTests/Pods-PhoneTAXXTests.release.xcconfig"; sourceTree = "<group>"; };
+		A413A024909EB3BDB4A2C1FC /* Pods-PhoneTAXX-PhoneTAXXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneTAXX-PhoneTAXXUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4BBB6C82685FF34009E4B68 /* StoreKitDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitDelegate.swift; sourceTree = "<group>"; };
+		C4C08F19270DF7D200B7C15C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4FD43B22671EA0F00475177 /* FCMNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCMNotifications.swift; sourceTree = "<group>"; };
+		E18C37420A7F3014BBE4FC22 /* Pods_PhoneTAXX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneTAXX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843305ED261C15B600D84F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A57FA951D32E67EB187AEAF /* (null) in Frameworks */,
+				012E93A9BCE23CC997193FFE /* Pods_PhoneTAXX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84330606261C15B800D84F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF32D5BABB026AAB43058AC8 /* (null) in Frameworks */,
+				3E462504FC52A8BF9C0231C4 /* Pods_PhoneTAXXTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84330611261C15B800D84F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF93E91B7652F74AB3E07C4 /* (null) in Frameworks */,
+				EE185D7F3396BAD8CB24B2FA /* Pods_PhoneTAXX_PhoneTAXXUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2924DED42669EB7E00310331 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				2924DED52669EB7E00310331 /* configToast.swift */,
+				2924DED62669EB7E00310331 /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		2924DEDC2669F25900310331 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84375C8C2624278A003DA5B7 /* ThreeMenuViewController.swift */,
+				2935BB14265FA6D20099F6CB /* CallHistoryVC.swift */,
+				29388C232666488500A3736A /* SupportViewController.swift */,
+				84375C9626243475003DA5B7 /* MonthlySummariesViewController.swift */,
+				292DFCDA2668F59F0026BBD9 /* ShowCalenderVC.swift */,
+				293168792674C0AF006B4878 /* EditProfileViewController.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		292F2345265F2EF200D00E5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2924DEDC2669F25900310331 /* SideMenu */,
+				292F2367265F309600D00E5A /* AccounSetting  */,
+				292F235D265F2FEF00D00E5A /* FrequentNumber  */,
+				8421E51326428C1600276CC8 /* Alert + Valid Email file */,
+				84525857261D83630074233F /* ForgotPasswod */,
+				84361E1626205EC3008D6C78 /* Home Page */,
+				8433065D261C495E00D84F6D /* Create Account */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		292F2346265F2F2C00D00E5A /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				299FDC962659080600D79D0E /* Extension UIColor.swift */,
+				29353330267522A5002CF7E4 /* CameraHandler.swift */,
+				84525866261DDBA50074233F /* extension UITextField.swift */,
+				29CE97AB2679D571005D05D7 /* Animator.swift */,
+				844A99482625965800688D08 /* NSUIColor+Hex.swift */,
+				292DFD1C26691ED40026BBD9 /* UIPICKERVIEW.swift */,
+				295214CB265B9886003C36F7 /* GrowingTextView.swift */,
+				29303DE426601B2E00F353A7 /* Extention Date.swift */,
+				29388B74266612B800A3736A /* Extention UIView.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		292F2353265F2F8600D00E5A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2935BACB265F5D060099F6CB /* FetchedContact.swift */,
+				2935BB19265FAE040099F6CB /* CallDetailModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		292F235D265F2FEF00D00E5A /* FrequentNumber  */ = {
+			isa = PBXGroup;
+			children = (
+				84375C9126243426003DA5B7 /* FrequentNumberViewController.swift */,
+				84375C7D26241D09003DA5B7 /* AddNumberViewController.swift */,
+				292F2371265F313800D00E5A /* ContactsVC.swift */,
+				29543295268302F60070F68C /* EditFrequentContactViewController.swift */,
+			);
+			path = "FrequentNumber ";
+			sourceTree = "<group>";
+		};
+		292F2367265F309600D00E5A /* AccounSetting  */ = {
+			isa = PBXGroup;
+			children = (
+				84375C7326241A27003DA5B7 /* AccountSettingViewController.swift */,
+				84375C8726241F0B003DA5B7 /* NotificationViewController.swift */,
+				84375CA026243543003DA5B7 /* SubscriptionViewController.swift */,
+			);
+			path = "AccounSetting ";
+			sourceTree = "<group>";
+		};
+		29D73E282655238E00F20565 /* CountryCode */ = {
+			isa = PBXGroup;
+			children = (
+				29D73E292655238E00F20565 /* Source */,
+			);
+			path = CountryCode;
+			sourceTree = "<group>";
+		};
+		29D73E292655238E00F20565 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				29D73E2A2655238E00F20565 /* assets.bundle */,
+				29D73E2B2655238E00F20565 /* MICountryPicker.swift */,
+				29D73E2C2655238E00F20565 /* CallingCodes.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8421E51326428C1600276CC8 /* Alert + Valid Email file */ = {
+			isa = PBXGroup;
+			children = (
+				842F987926440B8B0029C1BF /* String + Extension File.swift */,
+				8442C9C826443D9A0061E66B /* UIAlertController + ExtentionFile.swift */,
+			);
+			path = "Alert + Valid Email file";
+			sourceTree = "<group>";
+		};
+		843305E7261C15B600D84F6D = {
+			isa = PBXGroup;
+			children = (
+				843305F2261C15B600D84F6D /* PhoneTAXX */,
+				8433060C261C15B800D84F6D /* PhoneTAXXTests */,
+				84330617261C15B800D84F6D /* PhoneTAXXUITests */,
+				843305F1261C15B600D84F6D /* Products */,
+				8D8762ECF9DC1D41DA6ED04F /* Pods */,
+				AAF53EBD16FEB4CBABDAA2E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		843305F1261C15B600D84F6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843305F0261C15B600D84F6D /* PhoneTAXX.app */,
+				84330609261C15B800D84F6D /* PhoneTAXXTests.xctest */,
+				84330614261C15B800D84F6D /* PhoneTAXXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843305F2261C15B600D84F6D /* PhoneTAXX */ = {
+			isa = PBXGroup;
+			children = (
+				C4C08F19270DF7D200B7C15C /* GoogleService-Info.plist */,
+				292F2353265F2F8600D00E5A /* DataModel */,
+				292F2345265F2EF200D00E5A /* Controller */,
+				29492244265965CD00E24B76 /* PhoneTAXX.entitlements */,
+				84525865261DDB7F0074233F /* Resources */,
+				843305F3261C15B600D84F6D /* AppDelegate.swift */,
+				843305F5261C15B600D84F6D /* SceneDelegate.swift */,
+				843305F9261C15B600D84F6D /* Main.storyboard */,
+				84330601261C15B800D84F6D /* LaunchScreen.storyboard */,
+				843305FF261C15B800D84F6D /* Assets.xcassets */,
+				84330604261C15B800D84F6D /* Info.plist */,
+				843305FC261C15B600D84F6D /* PhoneTAXX.xcdatamodeld */,
+				C4FD43B22671EA0F00475177 /* FCMNotifications.swift */,
+			);
+			path = PhoneTAXX;
+			sourceTree = "<group>";
+		};
+		8433060C261C15B800D84F6D /* PhoneTAXXTests */ = {
+			isa = PBXGroup;
+			children = (
+				8433060D261C15B800D84F6D /* PhoneTAXXTests.swift */,
+				8433060F261C15B800D84F6D /* Info.plist */,
+			);
+			path = PhoneTAXXTests;
+			sourceTree = "<group>";
+		};
+		84330617261C15B800D84F6D /* PhoneTAXXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84330618261C15B800D84F6D /* PhoneTAXXUITests.swift */,
+				8433061A261C15B800D84F6D /* Info.plist */,
+			);
+			path = PhoneTAXXUITests;
+			sourceTree = "<group>";
+		};
+		84330630261C460E00D84F6D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84330631261C462600D84F6D /* RUBIK */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84330631261C462600D84F6D /* RUBIK */ = {
+			isa = PBXGroup;
+			children = (
+				84330632261C462600D84F6D /* Rubik-MediumItalic.ttf */,
+				84330633261C462600D84F6D /* Rubik-VariableFont_wght.ttf */,
+				84330634261C462600D84F6D /* Rubik-Bold.ttf */,
+				84330635261C462600D84F6D /* Rubik-SemiBoldItalic.ttf */,
+				84330636261C462600D84F6D /* Rubik-Italic-VariableFont_wght.ttf */,
+				84330637261C462600D84F6D /* Rubik-Light.ttf */,
+				84330638261C462600D84F6D /* Rubik-Medium.ttf */,
+				84330639261C462600D84F6D /* Rubik-ExtraBoldItalic.ttf */,
+				8433063A261C462600D84F6D /* Rubik-Black.ttf */,
+				8433063B261C462600D84F6D /* Rubik-Italic.ttf */,
+				8433063C261C462600D84F6D /* Rubik-LightItalic.ttf */,
+				8433063D261C462600D84F6D /* Rubik-SemiBold.ttf */,
+				8433063E261C462600D84F6D /* Rubik-BlackItalic.ttf */,
+				8433063F261C462600D84F6D /* Rubik-ExtraBold.ttf */,
+				84330640261C462600D84F6D /* Rubik-Regular.ttf */,
+				84330641261C462600D84F6D /* Rubik-BoldItalic.ttf */,
+			);
+			path = RUBIK;
+			sourceTree = "<group>";
+		};
+		8433065D261C495E00D84F6D /* Create Account */ = {
+			isa = PBXGroup;
+			children = (
+				84330658261C495400D84F6D /* CreateAccountViewController.swift */,
+				84330664261C999C00D84F6D /* SignINViewController.swift */,
+			);
+			path = "Create Account";
+			sourceTree = "<group>";
+		};
+		84361E1626205EC3008D6C78 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				84361E1726205EF7008D6C78 /* HomeViewController.swift */,
+				845DBCBC2621DACD00FB5D5D /* TimeSelectionPopUpViewController.swift */,
+				84375C7826241CB9003DA5B7 /* CallDetailViewController.swift */,
+				84375C8226241D6C003DA5B7 /* SendReportViewController.swift */,
+				84375C9B262434FD003DA5B7 /* MonthlyPhoneBillViewController.swift */,
+				29244EA7265CDA6100228520 /* MakeCallVC.swift */,
+				292CBCEA2668BF2D00B1DACD /* ViewAllCallLogVC.swift */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		84525857261D83630074233F /* ForgotPasswod */ = {
+			isa = PBXGroup;
+			children = (
+				843305F7261C15B600D84F6D /* ForgotPasswordViewController.swift */,
+				84525858261D84BD0074233F /* VerificationCodeViewController.swift */,
+				8452585D261D93C60074233F /* ChangePasswordViewController.swift */,
+			);
+			path = ForgotPasswod;
+			sourceTree = "<group>";
+		};
+		84525865261DDB7F0074233F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2924DED42669EB7E00310331 /* Toast */,
+				84330630261C460E00D84F6D /* Fonts */,
+				29D73E282655238E00F20565 /* CountryCode */,
+				292F2346265F2F2C00D00E5A /* Extentions */,
+				C4BBB6C82685FF34009E4B68 /* StoreKitDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D8762ECF9DC1D41DA6ED04F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8418347459AE60D257F5A26E /* Pods-PhoneTAXX.debug.xcconfig */,
+				4971598C4A3CEC1D487042B0 /* Pods-PhoneTAXX.release.xcconfig */,
+				A413A024909EB3BDB4A2C1FC /* Pods-PhoneTAXX-PhoneTAXXUITests.debug.xcconfig */,
+				3B56F5F5102E020095A9964C /* Pods-PhoneTAXX-PhoneTAXXUITests.release.xcconfig */,
+				80B3EC5F8322C29DBC40BC17 /* Pods-PhoneTAXXTests.debug.xcconfig */,
+				8C134DD046C38162D25B97EF /* Pods-PhoneTAXXTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAF53EBD16FEB4CBABDAA2E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D3A3BE397A1930993B2036 /* Pods_PhoneTAXX_PhoneTAXXUITests.framework */,
+				289915DB42EC76E07A2A4792 /* Pods_PhoneTAXXTests.framework */,
+				E18C37420A7F3014BBE4FC22 /* Pods_PhoneTAXX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843305EF261C15B600D84F6D /* PhoneTAXX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8433061D261C15B800D84F6D /* Build configuration list for PBXNativeTarget "PhoneTAXX" */;
+			buildPhases = (
+				2009E97CC4696E4C86B1E4A6 /* [CP] Check Pods Manifest.lock */,
+				843305EC261C15B600D84F6D /* Sources */,
+				843305ED261C15B600D84F6D /* Frameworks */,
+				843305EE261C15B600D84F6D /* Resources */,
+				8AD22C9B50FD4D3BC8C840B4 /* [CP] Embed Pods Frameworks */,
+				AA0037EA7EAD2AED8F4CF889 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneTAXX;
+			productName = PhoneTAXX;
+			productReference = 843305F0261C15B600D84F6D /* PhoneTAXX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84330608261C15B800D84F6D /* PhoneTAXXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84330620261C15B800D84F6D /* Build configuration list for PBXNativeTarget "PhoneTAXXTests" */;
+			buildPhases = (
+				749222D5D136D8456EC3750D /* [CP] Check Pods Manifest.lock */,
+				84330605261C15B800D84F6D /* Sources */,
+				84330606261C15B800D84F6D /* Frameworks */,
+				84330607261C15B800D84F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8433060B261C15B800D84F6D /* PBXTargetDependency */,
+			);
+			name = PhoneTAXXTests;
+			productName = PhoneTAXXTests;
+			productReference = 84330609261C15B800D84F6D /* PhoneTAXXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84330613261C15B800D84F6D /* PhoneTAXXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84330623261C15B800D84F6D /* Build configuration list for PBXNativeTarget "PhoneTAXXUITests" */;
+			buildPhases = (
+				E069E638653ADD0F55CF6ED9 /* [CP] Check Pods Manifest.lock */,
+				84330610261C15B800D84F6D /* Sources */,
+				84330611261C15B800D84F6D /* Frameworks */,
+				84330612261C15B800D84F6D /* Resources */,
+				4B1A86ED6B80513CBF00DBFC /* [CP] Embed Pods Frameworks */,
+				A8301E92159CBD233DBA42E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84330616261C15B800D84F6D /* PBXTargetDependency */,
+			);
+			name = PhoneTAXXUITests;
+			productName = PhoneTAXXUITests;
+			productReference = 84330614261C15B800D84F6D /* PhoneTAXXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843305E8261C15B600D84F6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					843305EF261C15B600D84F6D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					84330608261C15B800D84F6D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 843305EF261C15B600D84F6D;
+					};
+					84330613261C15B800D84F6D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 843305EF261C15B600D84F6D;
+					};
+				};
+			};
+			buildConfigurationList = 843305EB261C15B600D84F6D /* Build configuration list for PBXProject "PhoneTAXX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843305E7261C15B600D84F6D;
+			productRefGroup = 843305F1261C15B600D84F6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843305EF261C15B600D84F6D /* PhoneTAXX */,
+				84330608261C15B800D84F6D /* PhoneTAXXTests */,
+				84330613261C15B800D84F6D /* PhoneTAXXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843305EE261C15B600D84F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84330603261C15B800D84F6D /* LaunchScreen.storyboard in Resources */,
+				84330644261C462600D84F6D /* Rubik-Bold.ttf in Resources */,
+				84330600261C15B800D84F6D /* Assets.xcassets in Resources */,
+				843305FB261C15B600D84F6D /* Main.storyboard in Resources */,
+				29D73E2F2655238E00F20565 /* CallingCodes.plist in Resources */,
+				84330647261C462600D84F6D /* Rubik-Light.ttf in Resources */,
+				84330642261C462600D84F6D /* Rubik-MediumItalic.ttf in Resources */,
+				8433064A261C462600D84F6D /* Rubik-Black.ttf in Resources */,
+				84330646261C462600D84F6D /* Rubik-Italic-VariableFont_wght.ttf in Resources */,
+				8433064F261C462600D84F6D /* Rubik-ExtraBold.ttf in Resources */,
+				29D73E2D2655238E00F20565 /* assets.bundle in Resources */,
+				84330643261C462600D84F6D /* Rubik-VariableFont_wght.ttf in Resources */,
+				8433064C261C462600D84F6D /* Rubik-LightItalic.ttf in Resources */,
+				84330645261C462600D84F6D /* Rubik-SemiBoldItalic.ttf in Resources */,
+				8433064B261C462600D84F6D /* Rubik-Italic.ttf in Resources */,
+				84330650261C462600D84F6D /* Rubik-Regular.ttf in Resources */,
+				8433064D261C462600D84F6D /* Rubik-SemiBold.ttf in Resources */,
+				84330649261C462600D84F6D /* Rubik-ExtraBoldItalic.ttf in Resources */,
+				84330651261C462600D84F6D /* Rubik-BoldItalic.ttf in Resources */,
+				C4C08F1A270DF7D300B7C15C /* GoogleService-Info.plist in Resources */,
+				8433064E261C462600D84F6D /* Rubik-BlackItalic.ttf in Resources */,
+				84330648261C462600D84F6D /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84330607261C15B800D84F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84330612261C15B800D84F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2009E97CC4696E4C86B1E4A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneTAXX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B1A86ED6B80513CBF00DBFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		749222D5D136D8456EC3750D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneTAXXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD22C9B50FD4D3BC8C840B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8301E92159CBD233DBA42E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX-PhoneTAXXUITests/Pods-PhoneTAXX-PhoneTAXXUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0037EA7EAD2AED8F4CF889 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneTAXX/Pods-PhoneTAXX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E069E638653ADD0F55CF6ED9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneTAXX-PhoneTAXXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843305EC261C15B600D84F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29543296268302F60070F68C /* EditFrequentContactViewController.swift in Sources */,
+				84330665261C999C00D84F6D /* SignINViewController.swift in Sources */,
+				84375C8326241D6C003DA5B7 /* SendReportViewController.swift in Sources */,
+				29353331267522A6002CF7E4 /* CameraHandler.swift in Sources */,
+				C4FD43B32671EA0F00475177 /* FCMNotifications.swift in Sources */,
+				29244EA8265CDA6100228520 /* MakeCallVC.swift in Sources */,
+				2935BB15265FA6D20099F6CB /* CallHistoryVC.swift in Sources */,
+				C4BBB6C92685FF34009E4B68 /* StoreKitDelegate.swift in Sources */,
+				29D73E2E2655238E00F20565 /* MICountryPicker.swift in Sources */,
+				84375C8826241F0B003DA5B7 /* NotificationViewController.swift in Sources */,
+				84375C9226243426003DA5B7 /* FrequentNumberViewController.swift in Sources */,
+				84375C8D2624278A003DA5B7 /* ThreeMenuViewController.swift in Sources */,
+				299FDC972659080600D79D0E /* Extension UIColor.swift in Sources */,
+				292DFCDB2668F59F0026BBD9 /* ShowCalenderVC.swift in Sources */,
+				292DFD1D26691ED40026BBD9 /* UIPICKERVIEW.swift in Sources */,
+				84525867261DDBA50074233F /* extension UITextField.swift in Sources */,
+				292CBCEB2668BF2D00B1DACD /* ViewAllCallLogVC.swift in Sources */,
+				8452585E261D93C60074233F /* ChangePasswordViewController.swift in Sources */,
+				845DBCBD2621DACD00FB5D5D /* TimeSelectionPopUpViewController.swift in Sources */,
+				29303DE526601B2E00F353A7 /* Extention Date.swift in Sources */,
+				29388C242666488500A3736A /* SupportViewController.swift in Sources */,
+				2924DED82669EB7E00310331 /* Toast.swift in Sources */,
+				29CE97AC2679D571005D05D7 /* Animator.swift in Sources */,
+				844A99492625965800688D08 /* NSUIColor+Hex.swift in Sources */,
+				2931687A2674C0AF006B4878 /* EditProfileViewController.swift in Sources */,
+				84375C9726243475003DA5B7 /* MonthlySummariesViewController.swift in Sources */,
+				84330659261C495400D84F6D /* CreateAccountViewController.swift in Sources */,
+				292F2372265F313800D00E5A /* ContactsVC.swift in Sources */,
+				2935BB1A265FAE040099F6CB /* CallDetailModel.swift in Sources */,
+				2924DED72669EB7E00310331 /* configToast.swift in Sources */,
+				84375C9C262434FD003DA5B7 /* MonthlyPhoneBillViewController.swift in Sources */,
+				843305F8261C15B600D84F6D /* ForgotPasswordViewController.swift in Sources */,
+				842F987A26440B8B0029C1BF /* String + Extension File.swift in Sources */,
+				84361E1826205EF7008D6C78 /* HomeViewController.swift in Sources */,
+				843305FE261C15B600D84F6D /* PhoneTAXX.xcdatamodeld in Sources */,
+				843305F4261C15B600D84F6D /* AppDelegate.swift in Sources */,
+				84375CA126243543003DA5B7 /* SubscriptionViewController.swift in Sources */,
+				843305F6261C15B600D84F6D /* SceneDelegate.swift in Sources */,
+				84375C7926241CB9003DA5B7 /* CallDetailViewController.swift in Sources */,
+				84375C7E26241D09003DA5B7 /* AddNumberViewController.swift in Sources */,
+				8442C9C926443D9A0061E66B /* UIAlertController + ExtentionFile.swift in Sources */,
+				2935BACC265F5D060099F6CB /* FetchedContact.swift in Sources */,
+				295214CC265B9886003C36F7 /* GrowingTextView.swift in Sources */,
+				84525859261D84BD0074233F /* VerificationCodeViewController.swift in Sources */,
+				29388B75266612B800A3736A /* Extention UIView.swift in Sources */,
+				84375C7426241A27003DA5B7 /* AccountSettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84330605261C15B800D84F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8433060E261C15B800D84F6D /* PhoneTAXXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84330610261C15B800D84F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84330619261C15B800D84F6D /* PhoneTAXXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8433060B261C15B800D84F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843305EF261C15B600D84F6D /* PhoneTAXX */;
+			targetProxy = 8433060A261C15B800D84F6D /* PBXContainerItemProxy */;
+		};
+		84330616261C15B800D84F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843305EF261C15B600D84F6D /* PhoneTAXX */;
+			targetProxy = 84330615261C15B800D84F6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		843305F9261C15B600D84F6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843305FA261C15B600D84F6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84330601261C15B800D84F6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84330602261C15B800D84F6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8433061B261C15B800D84F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8433061C261C15B800D84F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8433061E261C15B800D84F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8418347459AE60D257F5A26E /* Pods-PhoneTAXX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneTAXX/PhoneTAXX.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HYAX464X5T;
+				INFOPLIST_FILE = PhoneTAXX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PhoneTAXX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PhoneTaxxDevProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8433061F261C15B800D84F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4971598C4A3CEC1D487042B0 /* Pods-PhoneTAXX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneTAXX/PhoneTAXX.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HYAX464X5T;
+				INFOPLIST_FILE = PhoneTAXX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PhoneTAXX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PhoneTaxxDevProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84330621261C15B800D84F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B3EC5F8322C29DBC40BC17 /* Pods-PhoneTAXXTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNK94QM64;
+				INFOPLIST_FILE = PhoneTAXXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PhoneTAXXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneTAXX.app/PhoneTAXX";
+			};
+			name = Debug;
+		};
+		84330622261C15B800D84F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C134DD046C38162D25B97EF /* Pods-PhoneTAXXTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNK94QM64;
+				INFOPLIST_FILE = PhoneTAXXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PhoneTAXXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneTAXX.app/PhoneTAXX";
+			};
+			name = Release;
+		};
+		84330624261C15B800D84F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A413A024909EB3BDB4A2C1FC /* Pods-PhoneTAXX-PhoneTAXXUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNK94QM64;
+				INFOPLIST_FILE = PhoneTAXXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PhoneTAXXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneTAXX;
+			};
+			name = Debug;
+		};
+		84330625261C15B800D84F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B56F5F5102E020095A9964C /* Pods-PhoneTAXX-PhoneTAXXUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZNK94QM64;
+				INFOPLIST_FILE = PhoneTAXXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PhoneTAXXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneTAXX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843305EB261C15B600D84F6D /* Build configuration list for PBXProject "PhoneTAXX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8433061B261C15B800D84F6D /* Debug */,
+				8433061C261C15B800D84F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8433061D261C15B800D84F6D /* Build configuration list for PBXNativeTarget "PhoneTAXX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8433061E261C15B800D84F6D /* Debug */,
+				8433061F261C15B800D84F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84330620261C15B800D84F6D /* Build configuration list for PBXNativeTarget "PhoneTAXXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84330621261C15B800D84F6D /* Debug */,
+				84330622261C15B800D84F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84330623261C15B800D84F6D /* Build configuration list for PBXNativeTarget "PhoneTAXXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84330624261C15B800D84F6D /* Debug */,
+				84330625261C15B800D84F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		843305FC261C15B600D84F6D /* PhoneTAXX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				843305FD261C15B600D84F6D /* PhoneTAXX.xcdatamodel */,
+			);
+			currentVersion = 843305FD261C15B600D84F6D /* PhoneTAXX.xcdatamodel */;
+			path = PhoneTAXX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 843305E8261C15B600D84F6D /* Project object */;
+}
